@@ -5,4 +5,4 @@
 sum=$(( $1 + $2 ))
  
 echo "Sum is: $sum" 
-`apt list --installed` >> softwarelist.txt
+echo "`apt list --installed`" >> softwarelist.txt
